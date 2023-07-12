@@ -10,8 +10,8 @@ public class HomeWork4 {
         System.out.println("Введите цифры: ");
         Scanner scanner = new Scanner(System.in);
         String inputName = names[scanner.nextInt()];
-        String inputPlace = places[scanner.nextInt()];
         int inputTime = times[scanner.nextInt()];
+        String inputPlace = places[scanner.nextInt()];
         System.out.println(inputName + " будет идти в " + inputPlace + " в " + inputTime + ":00");
 
     }

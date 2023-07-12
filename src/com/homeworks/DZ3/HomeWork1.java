@@ -16,8 +16,5 @@ public class HomeWork1 {
         System.out.println(string2);
         System.out.println(string3);
         System.out.println(string4);
-
-
-
     }
 }

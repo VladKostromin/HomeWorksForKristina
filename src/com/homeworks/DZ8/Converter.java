@@ -13,7 +13,12 @@ public class Converter {
     }
 
     public int convertToInt(Object input) {
-        return Integer.valueOf(input.toString());
+        try {
+            return Integer.valueOf(input.toString());
+        } catch (NumberFormatException e) {
+            System.out.println("Wrong input format ");
+            return 0;
+        }
     }
 
     public double convertToDouble(Object input) {

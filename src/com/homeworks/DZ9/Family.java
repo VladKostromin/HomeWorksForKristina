@@ -22,24 +22,12 @@ public class Family {
         return mother;
     }
 
-    public void setMother(Human mother) {
-        this.mother = mother;
-    }
-
     public Human getFather() {
         return father;
     }
 
-    public void setFather(Human father) {
-        this.father = father;
-    }
-
     public Human[] getChildren() {
         return children;
-    }
-
-    public void setChildren(Human[] children) {
-        this.children = children;
     }
 
     public Pet getPet() {
